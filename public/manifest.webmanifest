@@ -1,17 +1,32 @@
 {
-  "name": "Avalon Companion · 오프라인 게임 도우미",
-  "short_name": "Avalon",
-  "description": "오프라인 아발론 게임 진행 보조",
+  "id": "/",
+  "name": "AVALON Companion",
+  "short_name": "AVALON",
+  "description": "친구들과 함께하는 아발론 실시간 게임",
+  "lang": "ko",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0a1424",
   "theme_color": "#101927",
   "icons": [
     {
-      "src": "/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

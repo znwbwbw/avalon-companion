@@ -128,7 +128,7 @@ function onAction(ws,msg) {
   error(ws,'알 수 없는 요청입니다.');
 }
 const base=join(process.cwd(),'public');
-const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp'};
+const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.webmanifest':'application/manifest+json; charset=utf-8'};
 const server=http.createServer(async(req,res)=>{try{
   const requestUrl=new URL(req.url,'http://localhost');
   if(requestUrl.pathname==='/network-addresses'){
