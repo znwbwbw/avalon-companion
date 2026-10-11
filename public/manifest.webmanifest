@@ -1,0 +1,17 @@
+{
+  "name": "Avalon Companion · 오프라인 게임 도우미",
+  "short_name": "Avalon",
+  "description": "오프라인 아발론 게임 진행 보조",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1424",
+  "theme_color": "#101927",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
